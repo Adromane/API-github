@@ -16,7 +16,7 @@ function Main(){
         <Input
           placeholder="Utilisateur"
           value={login}
-          onChange={(event) => setLogin(event.target.value)}
+          onChange={(event) => setLogin(event.target.value)} 
         />
         <Button to={`/${login}/repositories`}>
           <MdSearch size={40} />
