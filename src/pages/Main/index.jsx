@@ -14,7 +14,7 @@ function Main(){
       <Title>API GitHub</Title>
       <Form>
         <Input
-          placeholder="Usuário"
+          placeholder="Utilisateur"
           value={login}
           onChange={(event) => setLogin(event.target.value)}
         />
